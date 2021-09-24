@@ -3,6 +3,7 @@ import Sawo from 'sawo'
 import { useHistory } from 'react-router';
 import { LoginContext } from './App'
 import './css/Login.css'
+import {sawokey} from './utils/key'
 const LoginPage = () => {
     const history=useHistory();
     const {setLogin}=useContext(LoginContext)
@@ -13,7 +14,7 @@ const LoginPage = () => {
             // can be one of 'email' or 'phone_number_sms'
             identifierType: 'phone_number_sms',
             // Add the API key copied from 5th step
-            apiKey: '16100669-14bd-4d1f-8dd8-8f9b8dd0a679',
+            apiKey: sawokey,
             // Add a callback here to handle the payload sent by sdk
             onSuccess: payload => {
                 // you can use this payload for your purpose
