@@ -1,0 +1,48 @@
+.video-logo-container{    
+    width: 100%;
+    display: flex; 
+    margin-bottom: 20px;
+}
+.video-logo-container  >img {
+    width: 290px;
+    height: 130px;
+    border-radius:50%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.title-logo-con{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 0.5rem;
+}
+.video-logo-container >.title-logo-con >.view-logo-con>p{
+    color: gray;
+    cursor: pointer;
+}
+.view-logo-con > h4 {
+    margin-top: -1%;
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.video-logo-container >.title-logo-con>.view-logo-con>h4{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}   
+.view-logo-con{
+    margin-left: 0.7rem;
+}
+
+
+.desc-con{
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-height: 1.5;        /* fallback */
+    max-height: 3;       /* fallback */
+}
