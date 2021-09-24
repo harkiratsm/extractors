@@ -20,7 +20,7 @@ const LoginPage = () => {
                 // you can use this payload for your purpose
                
                setLogin(true)
-               history.push("/")
+               history.push("/extractors")
             },
         }
         let sawo = new Sawo(config)
