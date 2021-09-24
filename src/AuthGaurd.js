@@ -5,7 +5,7 @@ function AuthGaurd({children}) {
     const {login} = useContext(LoginContext)
     if(login===false) {
         return (
-            <Redirect to='/login'/>
+            <Redirect to='/extractors/login'/>
         )
     }
     else {

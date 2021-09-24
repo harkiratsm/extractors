@@ -10,10 +10,10 @@ function Routes() {
     return (
         <Router>
             <Switch>
-                <Route path="/login" exact>
+                <Route path="/extractors/login" exact>
                     <LoginPage />
                 </Route>
-                <Route path="/" exact>
+                <Route path="/extractors" exact>
                     <AuthGaurd>
                         <Main />
                     </AuthGaurd>    
